@@ -6,4 +6,4 @@ For more information see the [Sprangular Project](https://github.com/DynamoMTL/s
 
 ## License
 
-An unlimited license is hereby granted to all parties, provided said party is awesome. 
+An unlimited license is hereby granted to all parties, provided said party is awesome.
