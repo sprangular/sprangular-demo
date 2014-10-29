@@ -15,6 +15,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 gem 'spree_core', '~> 2.3.4'
