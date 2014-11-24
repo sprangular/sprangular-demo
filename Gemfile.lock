@@ -21,7 +21,7 @@ GIT
 
 GIT
   remote: git://github.com/DynamoMTL/sprangular.git
-  revision: dd1c0cd6f979ff58e9cdd253b4cf1737cb008226
+  revision: 0e8ab221434920d235a64b01ea9c4a0507f79605
   specs:
     sprangular (0.0.1)
       angularjs-rails
@@ -302,7 +302,7 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sprockets-rails (2.2.0)
+    sprockets-rails (2.2.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
