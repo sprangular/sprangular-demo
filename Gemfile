@@ -3,7 +3,7 @@ ruby '2.1.0'
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
-gem 'rails', '4.1.6'
+gem 'rails', '>= 4.1.6'
 gem 'sass-rails', '~> 4.0.3'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'spring',        group: :development
@@ -23,5 +23,5 @@ gem 'spree_sample', '~> 2.4'
 gem 'spree_backend', '~> 2.4'
 gem 'sprangular', github: 'DynamoMTL/sprangular'
 
-gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-3-stable'
-gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-3-stable'
+gem 'spree_gateway', git: 'https://github.com/spree/spree_gateway.git', branch: '2-4-stable'
+gem 'spree_auth_devise', git: 'https://github.com/spree/spree_auth_devise.git', branch: '2-4-stable'
