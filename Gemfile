@@ -17,10 +17,10 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'spree_core', '~> 2.3.4'
-gem 'spree_api', '~> 2.3.4'
-gem 'spree_sample', '~> 2.3.4'
-gem 'spree_backend', '~> 2.3.4'
+gem 'spree_core', '~> 2.4'
+gem 'spree_api', '~> 2.4'
+gem 'spree_sample', '~> 2.4'
+gem 'spree_backend', '~> 2.4'
 gem 'sprangular', github: 'DynamoMTL/sprangular'
 
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-3-stable'
