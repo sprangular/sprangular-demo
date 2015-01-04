@@ -21,7 +21,7 @@ GIT
 
 GIT
   remote: git://github.com/DynamoMTL/sprangular.git
-  revision: 232ffc3265f56a383fd061c19594374041e82e5b
+  revision: bcea6d77c2725e053ee988d76190280010e5d37c
   specs:
     sprangular (0.0.1)
       angularjs-rails
@@ -139,7 +139,7 @@ GEM
     geocoder (1.2.6)
     highline (1.6.21)
     hike (1.2.3)
-    htmlentities (4.3.2)
+    htmlentities (4.3.3)
     httparty (0.13.3)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
@@ -156,7 +156,7 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.4.3)
-    mini_portile (0.6.1)
+    mini_portile (0.6.2)
     minitest (5.5.0)
     monetize (1.1.0)
       money (~> 6.5.0)
@@ -195,7 +195,7 @@ GEM
     rabl (0.9.4.pre1)
       activesupport (>= 2.3.14)
     rack (1.5.2)
-    rack-rewrite (1.5.0)
+    rack-rewrite (1.5.1)
     rack-test (0.6.2)
       rack (>= 1.0)
     rails (4.1.8)
@@ -216,7 +216,7 @@ GEM
     rails-assets-angular-motion (0.3.4)
       rails-assets-angular (>= 1.2, < 2)
       rails-assets-angular-animate (>= 1.2, < 2)
-    rails-assets-angular-strap (2.1.4)
+    rails-assets-angular-strap (2.1.5)
       rails-assets-angular (>= 1.2.21, < 2)
       rails-assets-angular-motion (>= 0.3.3, < 0.4)
       rails-assets-bootstrap (>= 3.2.0, < 4)
@@ -264,11 +264,11 @@ GEM
     slim (3.0.1)
       temple (~> 0.7.3)
       tilt (>= 1.3.3, < 2.1)
-    slim-rails (3.0.0)
-      actionmailer (>= 3.0, < 4.2)
-      actionpack (>= 3.0, < 4.2)
-      activesupport (>= 3.0, < 4.2)
-      railties (>= 3.0, < 4.2)
+    slim-rails (3.0.1)
+      actionmailer (>= 3.1, < 5.0)
+      actionpack (>= 3.1, < 5.0)
+      activesupport (>= 3.1, < 5.0)
+      railties (>= 3.1, < 5.0)
       slim (~> 3.0)
     spree_api (2.4.2)
       rabl (~> 0.9.4.pre1)
