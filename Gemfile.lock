@@ -21,7 +21,7 @@ GIT
 
 GIT
   remote: git://github.com/DynamoMTL/sprangular.git
-  revision: cb78ac5647471df4af62e1cee755cc47ee6b57d4
+  revision: 766452d0aa6fe42b1dd83826d1c6ac176dac0efe
   specs:
     sprangular (0.0.1)
       angularjs-rails
