@@ -1,4 +1,4 @@
-Sprangular.config ($routeProvider) ->
+angular.module('SprangularDemo').config ($routeProvider) ->
 
   $routeProvider
     .when '/about',

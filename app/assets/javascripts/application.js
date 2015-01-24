@@ -11,7 +11,7 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
 //= require bootstrap-sass-official
 //= require sprangular
+//= require sprangular/host
 //= require sprangular/extraRoutes
