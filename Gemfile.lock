@@ -20,7 +20,7 @@ GIT
 
 GIT
   remote: git://github.com/DynamoMTL/sprangular.git
-  revision: 57d7166fe3907aae85a528ae213616a0c96402d7
+  revision: c840d507de138b0a418b4489a15e24f3fc749e15
   specs:
     sprangular (0.0.1)
       angularjs-rails (= 1.3.8)
@@ -29,6 +29,7 @@ GIT
       geocoder
       jquery-rails
       ngannotate-rails
+      prerender_rails
       rack-rewrite
       rails
       rails-assets-angular-bootstrap
@@ -200,6 +201,9 @@ GEM
     premailer-rails (1.8.0)
       actionmailer (>= 3, < 5)
       premailer (~> 1.7, >= 1.7.9)
+    prerender_rails (1.1.1)
+      activesupport
+      rack
     rabl (0.9.4.pre1)
       activesupport (>= 2.3.14)
     rack (1.5.2)
