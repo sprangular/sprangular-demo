@@ -338,6 +338,9 @@ GEM
       tzinfo
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    uglifier (2.5.3)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     unicode_utils (1.4.0)
     uuidtools (2.1.5)
     versioncake (2.3.1)
@@ -367,3 +370,4 @@ DEPENDENCIES
   spree_sample (~> 2.4)
   spring
   sqlite3
+  uglifier
