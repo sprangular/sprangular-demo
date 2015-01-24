@@ -20,7 +20,7 @@ GIT
 
 GIT
   remote: git://github.com/DynamoMTL/sprangular.git
-  revision: f10c55e41ecfcfab302d25c1a5af2ee2ade4008c
+  revision: e4e957dffadb5668055693b9729546cc3018328f
   specs:
     sprangular (0.0.1)
       angularjs-rails (= 1.3.8)
@@ -140,7 +140,7 @@ GEM
       railties (>= 3.2, < 5.0)
     friendly_id (5.0.5)
       activerecord (>= 4.0.0)
-    geocoder (1.2.6)
+    geocoder (1.2.7)
     highline (1.6.21)
     hike (1.2.3)
     htmlentities (4.3.3)
