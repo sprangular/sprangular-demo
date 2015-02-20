@@ -25,6 +25,8 @@ gem 'spree_api', '~> 2.4'
 gem 'spree_sample', '~> 2.4'
 gem 'spree_backend', '~> 2.4'
 gem 'spree_chimpy', github: 'DynamoMTL/spree_chimpy'
+gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: '2-4-stable'
+
 gem 'sprangular', github: 'sprangular/sprangular'
 gem 'sprangular_static_content', github: 'sprangular/sprangular_static_content'
 gem 'sprangular_chimpy', github: 'sprangular/sprangular_chimpy'

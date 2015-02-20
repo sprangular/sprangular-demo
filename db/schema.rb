@@ -26,6 +26,25 @@ ActiveRecord::Schema.define(version: 20150220223851) do
   add_index "friendly_id_slugs", ["sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_id"
   add_index "friendly_id_slugs", ["sluggable_type"], name: "index_friendly_id_slugs_on_sluggable_type"
 
+  create_table "pages", force: true do |t|
+    t.string   "title"
+    t.text     "body"
+    t.string   "slug"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.boolean  "show_in_header",   default: false, null: false
+    t.boolean  "show_in_footer",   default: false, null: false
+    t.string   "foreign_link"
+    t.integer  "position",         default: 1,     null: false
+    t.boolean  "visible",          default: true
+    t.string   "meta_keywords"
+    t.string   "meta_description"
+    t.string   "layout"
+    t.boolean  "show_in_sidebar",  default: false, null: false
+  end
+
+  add_index "pages", ["slug"], name: "index_pages_on_slug"
+
   create_table "spree_addresses", force: true do |t|
     t.string   "firstname"
     t.string   "lastname"

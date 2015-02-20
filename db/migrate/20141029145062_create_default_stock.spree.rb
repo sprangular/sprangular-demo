@@ -1,11 +1,6 @@
 # This migration comes from spree (originally 20130213191427)
 class CreateDefaultStock < ActiveRecord::Migration
   def up
-    Spree::StockLocation.skip_callback(:create, :after, :create_stock_items)
-    Spree::StockItem.skip_callback(:save, :after, :process_backorders)
-    location = Spree::StockLocation.new(name: 'default')
-    location.save(validate: false)
-
     Spree::Variant.find_each do |variant|
       stock_item = Spree::StockItem.unscoped.build(stock_location: location, variant: variant)
       stock_item.send(:count_on_hand=, variant.count_on_hand)
