@@ -2,7 +2,7 @@
 
 # [Live Demo](http://sprangular-demo.herokuapp.com)
 
-For more information see the [Sprangular Project](https://github.com/DynamoMTL/sprangular)
+For more information see the [Sprangular Project](https://github.com/sprangular/sprangular)
 
 ## License
 
