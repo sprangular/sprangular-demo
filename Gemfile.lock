@@ -19,6 +19,14 @@ GIT
       spree_core (~> 2.4.0)
 
 GIT
+  remote: git://github.com/sprangular/sprangular_chimpy.git
+  revision: 45390955740cf2efede6d241a3b2174afd8f7b83
+  specs:
+    sprangular_chimpy (2.4.2)
+      sprangular
+      spree_chimpy
+
+GIT
   remote: git://github.com/sprangular/sprangular_static_content.git
   revision: d25fe3e1cdf6e4005e51451520e6bfe0d46af1e8
   specs:
@@ -55,6 +63,14 @@ GIT
       spree_api (>= 2.4)
       spree_auth_devise
       spree_core (>= 2.4)
+
+GIT
+  remote: git://github.com/DynamoMTL/spree_chimpy.git
+  revision: 8956a3c94797b4d2a364342552963c57096ebaae
+  specs:
+    spree_chimpy (2.0.0.alpha)
+      mailchimp-api (~> 2.0.5)
+      spree_core (~> 2.1)
 
 GEM
   remote: https://rubygems.org/
@@ -143,6 +159,7 @@ GEM
     devise-encryptable (0.1.2)
       devise (>= 2.1.0)
     erubis (2.7.0)
+    excon (0.44.2)
     execjs (2.3.0)
     ffaker (1.32.1)
     font-awesome-rails (4.3.0.0)
@@ -173,6 +190,9 @@ GEM
     kgio (2.9.0)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    mailchimp-api (2.0.6)
+      excon (>= 0.16.0)
+      json (>= 1.7.7)
     mime-types (2.4.3)
     mini_portile (0.6.2)
     minitest (5.5.1)
@@ -389,10 +409,12 @@ DEPENDENCIES
   rails_12factor
   sass-rails (~> 4.0.3)
   sprangular!
+  sprangular_chimpy!
   sprangular_static_content!
   spree_api (~> 2.4)
   spree_auth_devise!
   spree_backend (~> 2.4)
+  spree_chimpy!
   spree_core (~> 2.4)
   spree_gateway!
   spree_sample (~> 2.4)
