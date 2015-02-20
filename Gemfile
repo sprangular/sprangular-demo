@@ -25,6 +25,7 @@ gem 'spree_api', '~> 2.4'
 gem 'spree_sample', '~> 2.4'
 gem 'spree_backend', '~> 2.4'
 gem 'sprangular', github: 'sprangular/sprangular'
+gem 'sprangular_static_content', github: 'sprangular/sprangular_static_content'
 
 gem 'spree_gateway', git: 'https://github.com/spree/spree_gateway.git', branch: '2-4-stable'
 gem 'spree_auth_devise', git: 'https://github.com/spree/spree_auth_devise.git', branch: '2-4-stable'

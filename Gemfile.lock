@@ -19,6 +19,14 @@ GIT
       spree_core (~> 2.4.0)
 
 GIT
+  remote: git://github.com/sprangular/sprangular_static_content.git
+  revision: d25fe3e1cdf6e4005e51451520e6bfe0d46af1e8
+  specs:
+    sprangular_static_content (1.0.0)
+      spree_core (~> 2.4.0)
+      spree_static_content
+
+GIT
   remote: git://github.com/sprangular/sprangular.git
   revision: e38f1a8951c3c829f810b25d48e3ace6bf54703e
   specs:
@@ -139,6 +147,10 @@ GEM
     ffaker (1.32.1)
     font-awesome-rails (4.3.0.0)
       railties (>= 3.2, < 5.0)
+    formtastic (1.2.4)
+      actionpack (>= 2.3.7)
+      activesupport (>= 2.3.7)
+      i18n (~> 0.4)
     friendly_id (5.0.5)
       activerecord (>= 4.0.0)
     geocoder (1.2.7)
@@ -313,8 +325,15 @@ GEM
       stringex (~> 1.5.1)
       truncate_html (= 0.9.2)
       twitter_cldr (~> 3.0)
+    spree_editor (0.70.0)
+      spree_core (>= 0.70.0)
+      tinymce-rails (>= 3.4.7)
     spree_sample (2.4.2)
       spree_core (= 2.4.2)
+    spree_static_content (0.60.1)
+      formtastic (~> 1.2.3)
+      spree_core (>= 0.60.0)
+      spree_editor (>= 0.50.0)
     spring (1.2.0)
     sprockets (2.12.3)
       hike (~> 1.2)
@@ -332,6 +351,8 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
+    tinymce-rails (4.1.6)
+      railties (>= 3.1.1)
     truncate_html (0.9.2)
     twitter_cldr (3.1.2)
       camertron-eprun
@@ -368,6 +389,7 @@ DEPENDENCIES
   rails_12factor
   sass-rails (~> 4.0.3)
   sprangular!
+  sprangular_static_content!
   spree_api (~> 2.4)
   spree_auth_devise!
   spree_backend (~> 2.4)
