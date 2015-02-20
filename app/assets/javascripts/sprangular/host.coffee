@@ -1,1 +1,1 @@
-angular.module('SprangularDemo', ['Sprangular', 'Sprangular.StaticContent'])
+angular.module('SprangularDemo', ['Sprangular', 'Sprangular.StaticContent', 'Sprangular.Chimpy'])
