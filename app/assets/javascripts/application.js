@@ -13,5 +13,6 @@
 //= require jquery
 //= require bootstrap-sass-official
 //= require sprangular
+//= require sprangular/chimpy
 //= require sprangular/host
 //= require sprangular/extraRoutes
