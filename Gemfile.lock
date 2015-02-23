@@ -27,14 +27,6 @@ GIT
       spree_chimpy
 
 GIT
-  remote: git://github.com/sprangular/sprangular_static_content.git
-  revision: d25fe3e1cdf6e4005e51451520e6bfe0d46af1e8
-  specs:
-    sprangular_static_content (1.0.0)
-      spree_core (~> 2.4.0)
-      spree_static_content
-
-GIT
   remote: git://github.com/sprangular/sprangular.git
   revision: e38f1a8951c3c829f810b25d48e3ace6bf54703e
   specs:
@@ -405,7 +397,6 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sprangular!
   sprangular_chimpy!
-  sprangular_static_content!
   spree_api (~> 2.4)
   spree_auth_devise!
   spree_backend (~> 2.4)
