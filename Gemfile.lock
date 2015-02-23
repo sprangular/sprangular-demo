@@ -20,7 +20,7 @@ GIT
 
 GIT
   remote: git://github.com/sprangular/sprangular_chimpy.git
-  revision: 45390955740cf2efede6d241a3b2174afd8f7b83
+  revision: 0e26adbf46d72557b2ecf9622b7159a57766a7ad
   specs:
     sprangular_chimpy (2.4.2)
       sprangular
