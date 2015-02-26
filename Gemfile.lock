@@ -28,7 +28,7 @@ GIT
 
 GIT
   remote: git://github.com/sprangular/sprangular.git
-  revision: 2fbe95326eb0c4a5729586f053e6c506e957f055
+  revision: afcc91a3a9683932c8f1fd479457328ae40dae0e
   specs:
     sprangular (0.0.1)
       coffee-rails
@@ -41,7 +41,6 @@ GIT
       rails
       rails-assets-angular (= 1.3.9)
       rails-assets-angular-animate
-      rails-assets-angular-bootstrap
       rails-assets-angular-motion
       rails-assets-angular-route
       rails-assets-angular-sanitize
@@ -252,8 +251,6 @@ GEM
     rails-assets-angular (1.3.9)
     rails-assets-angular-animate (1.3.13)
       rails-assets-angular (~> 1.3.0)
-    rails-assets-angular-bootstrap (0.11.2)
-      rails-assets-angular (>= 1)
     rails-assets-angular-motion (0.3.4)
       rails-assets-angular (>= 1.2, < 2)
       rails-assets-angular-animate (>= 1.2, < 2)
