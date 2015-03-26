@@ -28,8 +28,7 @@ GIT
 
 GIT
   remote: git://github.com/sprangular/sprangular.git
-  revision: e221189809bea7c91b13f59cf41a8148c1cca039
-  branch: feature/one-page-checkout
+  revision: c91580a435e5952bc6983ecefa9fbb9749f52746
   specs:
     sprangular (0.0.1)
       coffee-rails
