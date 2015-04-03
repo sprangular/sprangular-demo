@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/spree/spree_auth_devise.git
-  revision: 997382fcb1f6ed78a201ee7016384cfe71745aea
+  revision: 590d36810bbd35905ee204b4c9ea6f03ff236d09
   branch: 2-4-stable
   specs:
     spree_auth_devise (2.2.0)
@@ -28,9 +28,10 @@ GIT
 
 GIT
   remote: git://github.com/sprangular/sprangular.git
-  revision: c91580a435e5952bc6983ecefa9fbb9749f52746
+  revision: 83d3b7a0c55fd1779fc95ec53647d3bcb36a001d
   specs:
     sprangular (0.0.1)
+      active_model_serializers (~> 0.8.3)
       coffee-rails
       font-awesome-rails (~> 4.2)
       geocoder
@@ -85,6 +86,8 @@ GEM
       activesupport (= 4.1.10)
       builder (~> 3.1)
       erubis (~> 2.7.0)
+    active_model_serializers (0.8.3)
+      activemodel (>= 3.0)
     active_utils (2.2.3)
       activesupport (>= 2.3.11)
       i18n
@@ -111,7 +114,7 @@ GEM
       tzinfo (~> 1.1)
     acts_as_list (0.6.0)
       activerecord (>= 3.0)
-    addressable (2.3.7)
+    addressable (2.3.8)
     arel (5.0.1.20140414130214)
     awesome_nested_set (3.0.2)
       activerecord (>= 4.0.0, < 5)
@@ -265,7 +268,7 @@ GEM
       rails-assets-angular (>= 1.2.21, < 2)
     rails-assets-angular-translate (2.6.1)
       rails-assets-angular (>= 1.2.26, <= 1.4)
-    rails-assets-angularytics (0.3.0)
+    rails-assets-angularytics (0.4.0)
       rails-assets-angular
     rails-assets-bootstrap-additions (0.2.3)
     rails-assets-bootstrap-sass-official (3.3.4)
@@ -277,7 +280,7 @@ GEM
     rails-assets-jquery (2.1.3)
     rails-assets-sinon (1.14.1)
     rails-assets-sinonjs (1.12.2)
-    rails-assets-underscore (1.8.2)
+    rails-assets-underscore (1.8.3)
     rails-assets-underscore.string (3.0.3)
     rails_12factor (0.0.3)
       rails_serve_static_assets
