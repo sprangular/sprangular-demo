@@ -28,7 +28,7 @@ GIT
 
 GIT
   remote: git://github.com/sprangular/sprangular.git
-  revision: 83d3b7a0c55fd1779fc95ec53647d3bcb36a001d
+  revision: 18a39e8da1566d1894b685b0b386e06c2e6f58c9
   specs:
     sprangular (0.0.1)
       active_model_serializers (~> 0.8.3)
@@ -141,7 +141,7 @@ GEM
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
-    coffee-script (2.3.0)
+    coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.9.1)
@@ -163,7 +163,7 @@ GEM
       devise (>= 2.1.0)
     erubis (2.7.0)
     excon (0.44.2)
-    execjs (2.4.0)
+    execjs (2.5.0)
     ffaker (1.32.1)
     font-awesome-rails (4.3.0.0)
       railties (>= 3.2, < 5.0)
@@ -197,7 +197,7 @@ GEM
     mime-types (2.4.3)
     mini_portile (0.6.2)
     minitest (5.5.1)
-    monetize (1.1.0)
+    monetize (1.2.0)
       money (~> 6.5.0)
     money (6.5.1)
       i18n (>= 0.6.4, <= 0.7.0)
@@ -225,7 +225,7 @@ GEM
     paranoia (2.0.5)
       activerecord (~> 4.0)
     pg (0.18.1)
-    polyamorous (1.1.0)
+    polyamorous (1.2.0)
       activerecord (>= 3.0)
     polyglot (0.3.5)
     premailer (1.8.4)
