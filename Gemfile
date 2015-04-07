@@ -3,7 +3,8 @@ ruby '2.1.0'
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
-gem 'rails', '>= 4.1.6'
+# locked to 4.1.9 to fix this issue: https://github.com/spree/spree/issues/6213
+gem 'rails', '4.1.9'
 gem 'sass-rails', '~> 4.0.3'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'spring',        group: :development
