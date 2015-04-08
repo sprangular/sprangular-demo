@@ -28,7 +28,7 @@ GIT
 
 GIT
   remote: git://github.com/sprangular/sprangular.git
-  revision: da93e74a317019b10ec7893cd67466d25fb3468c
+  revision: 687c68f3674af145f9e5ee25413de34b45578c4d
   specs:
     sprangular (0.0.1)
       active_model_serializers (~> 0.8.3)
