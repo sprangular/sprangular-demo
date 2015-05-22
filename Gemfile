@@ -19,6 +19,7 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
   gem 'unicorn'
+  gem 'bonsai-elasticsearch-rails'
 end
 
 gem 'whenever', require: false

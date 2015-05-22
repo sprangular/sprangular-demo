@@ -141,6 +141,7 @@ GEM
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
     bcrypt (3.1.10)
+    bonsai-elasticsearch-rails (0.0.4)
     builder (3.2.2)
     camertron-eprun (1.1.0)
     cancancan (1.9.2)
@@ -434,6 +435,7 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk
+  bonsai-elasticsearch-rails
   coffee-rails (~> 4.0.0)
   pg
   rails (= 4.1.9)
