@@ -10,6 +10,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'spring',        group: :development
 gem 'aws-sdk'
 gem 'uglifier'
+gem 'elasticsearch-rails'
+gem 'elasticsearch-model'
 
 group :test, :development do
   gem 'sqlite3'
@@ -22,9 +24,6 @@ group :production do
   gem 'unicorn'
   gem 'bonsai-elasticsearch-rails'
 end
-
-gem 'elasticsearch-rails'
-gem 'elasticsearch-model'
 
 gem 'whenever', require: false
 
