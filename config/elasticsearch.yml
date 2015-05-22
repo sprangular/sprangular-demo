@@ -1,13 +1,11 @@
-defaults: &defaults
+development:
   hosts: ["127.0.0.1:9200"]
   bootstrap: true
-
-development:
-  <<: *defaults
   index: sprangular_demo_development
 
 test:
-  <<: *defaults
+  hosts: ["127.0.0.1:9200"]
+  bootstrap: true
   index: sprangular_demo_test
 
 production:
