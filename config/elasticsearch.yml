@@ -11,6 +11,6 @@ test:
   index: sprangular_demo_test
 
 production:
-  hosts: [<%= ENV['BONSAI_URL'] %>]
+  hosts: ['https://zle92jzm:mbetoj8kr8qsa62o@oak-1530123.us-east-1.bonsai.io']
   bootstrap: true
   index: sprangular_demo
