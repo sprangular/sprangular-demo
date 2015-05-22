@@ -21,6 +21,8 @@ group :production do
   gem 'unicorn'
 end
 
+gem 'whenever', require: false
+
 gem 'spree_core', '~> 2.4'
 gem 'spree_api', '~> 2.4'
 gem 'spree_sample', '~> 2.4'
