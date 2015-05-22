@@ -18,3 +18,7 @@
 # end
 
 # Learn more: http://github.com/javan/whenever
+
+every 1.day, at: '4am' do
+  rake "spree_elasticsearch:load_products"
+end
