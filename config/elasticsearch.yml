@@ -1,5 +1,5 @@
 defaults: &defaults
-  hosts: [#{ ENV['BONSAI_URL'] || '127.0.0.1:9200' }]
+  hosts: ["#{ ENV['BONSAI_URL'] || '127.0.0.1:9200' }"]
   bootstrap: true
 
 development:
