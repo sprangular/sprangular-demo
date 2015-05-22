@@ -23,6 +23,9 @@ group :production do
   gem 'bonsai-elasticsearch-rails'
 end
 
+gem 'elasticsearch-rails'
+gem 'elasticsearch-model'
+
 gem 'whenever', require: false
 
 gem 'spree_core', '~> 2.4'

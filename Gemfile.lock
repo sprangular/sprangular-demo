@@ -446,6 +446,8 @@ DEPENDENCIES
   aws-sdk
   bonsai-elasticsearch-rails
   coffee-rails (~> 4.0.0)
+  elasticsearch-model
+  elasticsearch-rails
   pg
   pry-rails
   rails (= 4.1.9)
