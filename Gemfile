@@ -11,8 +11,9 @@ gem 'spring',        group: :development
 gem 'aws-sdk'
 gem 'uglifier'
 
-group :development do
+group :test, :development do
   gem 'sqlite3'
+  gem 'pry-rails'
 end
 
 group :production do
