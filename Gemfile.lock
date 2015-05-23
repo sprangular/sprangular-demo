@@ -60,7 +60,7 @@ GIT
 
 GIT
   remote: git://github.com/DynamoMTL/spree_elasticsearch.git
-  revision: a0b822403fdbead41eac81034a9c90e32e473728
+  revision: 6662e9b783c703e8e82b003bdb52b6890dda096d
   branch: 2-4-stable
   specs:
     spree_elasticsearch (2.4.0)
