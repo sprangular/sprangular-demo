@@ -12,6 +12,7 @@ gem 'aws-sdk'
 gem 'uglifier'
 gem 'elasticsearch-rails'
 gem 'elasticsearch-model'
+gem 'rack-cors'
 
 group :test, :development do
   gem 'sqlite3'
